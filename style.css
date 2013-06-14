@@ -1,0 +1,384 @@
+body
+{
+	margin: auto;
+	font-family: Arial, sans-serif;
+	background-color: #202020;
+	background-image: url("images/body-fond.jpg");
+	color: #eeeeee;
+
+}
+
+/*
+Couleurs:
+Vert: #d6dd24
+*/
+
+#wrapper
+{
+	margin: auto;
+	width: 944px;
+}
+
+/********************************************************************
+*********************************************************************
+*********************************************************************
+**********	HEADER
+*********************************************************************
+*********************************************************************
+*********************************************************************/
+
+/** MISE EN PAGE */
+
+#header-top
+{
+	position: relative;
+	height: 50px;
+	z-index: 100; /* IE9 */
+}
+
+#logo-monster
+{
+	width: 275px;
+	height: 131px;
+	position: absolute;
+	left: 95px;
+	top: 10px;
+	background-image: url("images/logo-monster.png");
+	z-index: 100;
+}
+
+#header-gauche-barre-v
+{
+	height: 50px;
+	width: 122px;
+	background-image: url("images/header-gauche-barre-v.png");
+	background-repeat: repeat-y;
+	position: absolute;
+}
+
+#header-droite-barre-v
+{
+	height: 50px;
+	width: 122px;
+	background-image: url("images/header-droite-barre-v.png");
+	background-repeat: repeat-y;
+	position: absolute;
+	left: 822px;
+}
+
+
+#header-bottom
+{
+	position: relative;
+	height: 60px;
+}
+
+#header-coin-gauche
+{
+	height: 60px;
+	width: 122px;
+	background-image: url("images/header-coin-gauche.png");
+	background-repeat: no-repeat;
+	position: absolute;
+}
+
+#header-coin-droite
+{
+	height: 60px;
+	width: 122px;
+	background-image: url("images/header-coin-droite.png");
+	background-repeat: no-repeat;
+	position: absolute;
+	left: 822px;
+}
+
+
+
+/* BARRE RECHERCHE ET LANGUES */
+
+
+#header-recherche-langue
+{
+	height: 50px;
+	width: 700px;
+	color: white;
+	background-color: #333333;
+	position: absolute;
+	left: 122px;
+}
+
+#header-recherche-langue form
+{
+	float: right;
+	padding: 15px;
+}
+
+#header-recherche-langue form img
+{
+	margin-right: 6px;
+}
+
+#header-recherche-langue label
+{
+	font-size: 0.8em;
+}
+
+#header-recherche-langue input
+{
+	border: 0;
+	background-color: #595959;
+	color: #d4dd26;
+	border: 1px solid #d6dd24;
+}
+
+#header-recherche-langue select
+{
+	background-color: #595959;
+	color: white;
+	width: 120px;
+	border: 1px solid #d6dd24;
+}
+
+
+/* NAVIGATION */
+
+
+#header-navigation
+{
+	height: 60px;
+	width: 700px;
+	background-image: url("images/header-barre.png");
+	background-repeat: repeat-x;
+	position: absolute;
+	left: 122px;
+}
+
+#header-navigation-liens
+{
+	float: right;
+}
+
+#header-navigation-liens > div
+{
+	height: 60px;
+	float: left;
+	background-image: url("images/header-barre.png");
+	background-repeat: repeat-x;
+	padding-top: 15px;
+}
+
+#header-navigation-liens a
+{
+	color: white;
+	text-decoration: none;
+	font-size: 1.2em;
+	font-family: Tahoma, sans-serif;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+#header-navigation-liens div:hover
+{
+	background-image: url("images/header-barre-active.png");
+	background-repeat: repeat-x;
+}
+
+#header-navigation-liens a:hover
+{
+	color: #d6dd24;
+}
+
+/********************************************************************
+*********************************************************************
+*********************************************************************
+**********	CONTENT
+*********************************************************************
+*********************************************************************
+*********************************************************************/
+
+#content-wrapper
+{
+	position: relative;
+}
+
+#content
+{
+	width: 700px;
+	background-color: #333333;
+	position: absolute;
+	left: 122px;
+}
+
+#body-ombre-gauche
+{
+	height: 700px;
+	width: 122px;
+	background-image: url("images/body-ombre-gauche.png");
+	background-repeat: repeat-y;
+	position: absolute;
+
+}
+
+#body-ombre-droite
+{
+	height: 700px;
+	width: 122px;
+	background-image: url("images/body-ombre-droite.png");
+	background-repeat: repeat-y;
+	position: absolute;
+	left: 822px;
+}
+
+/********************************************************************
+*********************************************************************
+*********************************************************************
+**********	FOOTER
+*********************************************************************
+*********************************************************************
+*********************************************************************/
+
+#footer
+{
+	position: relative;
+	background-color: #2d2d2d;
+	text-align: center;
+	height: 140px;
+}
+
+#footer-barre
+{
+	height: 33px;
+	width: 700px;
+	position: absolute;
+	left: 0;	/* IE9 */
+	background-image: url("images/footer-barre.png");
+	background-repeat: repeat-x;
+}
+
+#footer-liens
+{
+	position: absolute;
+	width: 360px;
+	height: 60px;
+	left: 10px;
+	top: 40px;
+	background-color: #282828;
+	padding: 15px;
+}
+
+#footer-liens ul
+{
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	padding-bottom: 40px;
+}
+
+#footer-liens li
+{
+	float: left;
+}
+
+#footer-liens a 
+{
+	color: white;
+	font-size: 0.7em;
+	text-decoration: none;
+	padding-right: 12px;
+}
+
+#footer-liens a:hover
+{
+	color: #d4dd26;
+}
+
+#footer p
+{
+	clear: both;
+	color: #a3a3a3;
+	font-size: 0.8em;
+	padding: 0;
+	margin: 0;
+	text-align: center;
+}
+
+#footer-social
+{
+	position: absolute;
+	width: 250px;
+	height: 60px;
+	left: 410px;
+	top: 40px;
+	background-color: #282828;
+	padding: 15px;
+}
+
+
+#footer-social img
+{
+	margin-right: 3px;
+	margin-top: 10px;
+	border: 0;
+}
+
+
+/********************************************************************
+*********************************************************************
+*********************************************************************
+**********	PAGE SPÉCIFIQUE
+*********************************************************************
+*********************************************************************
+*********************************************************************/
+
+#content h1
+{
+	color: white;
+	padding: 0;
+	margin: 20px 30px 0px 30px;
+	border: 5px solid #1d1d1d;
+	background-color: #282828;
+	text-align: center;
+}
+
+#content p
+{
+	color: #dddddd;
+	padding: 0px 20px 0px 20px;
+	font-size: 0.9em;
+	text-align: justify;
+}
+
+#content .box
+{
+	background-color: #222222;
+	opacity: 50%;
+	padding: 10px;
+	margin: 10px 30px 10px 30px;
+	border: 5px solid #1d1d1d;
+}
+
+#content table
+{
+	width: 100%;
+}
+
+#content .box img
+{
+	margin: 15px;
+	width: 60px;
+	height: 60px;
+}
+
+
+#content .imgs
+{
+	float: left;	
+}
+
+.imgBox {
+	width: 500px;
+	height: 220px;
+}
+
+
+

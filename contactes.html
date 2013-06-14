@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" lang="fr">
+	<head>
+		<title>Monster Energy</title>
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+		<meta name="description" content="Travail pratique" />
+		<meta name="keywords" content="Travail,Pratique,TP,HTML,CSS" />
+		<meta name="author" content="Mathieu Collinge" />
+		<link rel="stylesheet" type="text/css" href="style.css" />
+	</head>
+	<body>
+
+		<div id="wrapper">
+
+			<div id="header-top">
+
+				<div id="logo-monster"></div>
+				
+				<div id="header-gauche-barre-v"></div>
+
+				<div id="header-recherche-langue">
+					<form action="#">
+						<div>
+							<select >
+								<option value="fr">Français</option>
+								<option value="en">English</option>
+								<option value="sp">Spanish</option>
+								<option value="ge">German</option>
+								<option value="jp">Japanese</option>
+								<option value="ch">Chinese</option>
+							</select>
+						</div>
+					</form>
+
+					<form action="https://www.google.ca/search">
+						<div>
+							<img src="images/icon-search.png" alt="Recherche" />
+							<label>
+								Recherche <input type="text" name="q" />
+							</label>
+						</div>
+					</form>
+				</div>
+
+				<div id="header-droite-barre-v"></div>
+			</div>
+
+			<div id="header-bottom">
+				<div id="header-coin-gauche"></div>
+
+				<div id="header-navigation">
+					<div id="header-navigation-liens">
+						<div><a href="index.html">Accueil</a></div>
+						<div><a href="galerie.html">Galerie</a></div>
+						<div><a href="produits.html">Produits</a></div>
+						<div><a href="stats.html">Statistiques</a></div>
+						<div><a href="contact.html">Contact</a></div>
+					</div>
+				</div>
+				<div id="header-coin-droite"></div>
+			</div>
+			
+			<div id="content-wrapper">
+				<div id="body-ombre-gauche"></div>
+
+				<div id="content">
+
+					<h1>Contactez-nous</h1>
+
+					<div class="box">
+						<h3> Entreprise Monster Energy </h3> <br/><br/>
+						<p> 550 Monica Circle, Suite 201</p> 
+						<p>Corona, CA 92880</p>
+						<p>Phone: 866-322-4466 Ext. 585</p><br/>
+					</div>
+
+					<div class="box">
+						<p> <h3>Veuillez nous envoyer vos suggestions</h3> </p><br/>
+						<form>
+							<fieldset>
+								<legend> Renseignement sur la personne </legend>
+								<label>Prénom*: <input type="text" name="PreNon" id="PreNom" /> </label> <br/>
+								<label>Nom de famille*: <input type="text" nama="nom" id="nom" /> </label> <br/>				
+								<label>Courriel*: <input type="text" name="courriel" id="courriel" /> </label> <br/>
+								<label>Adresse*:<input type="text"name="adresse" id="adresse"/></label><br/>
+								<label>Code Postal*:<input type="text"name="postal" id="postal"/></label><br/>
+								<label>Ville: <input type="text" name="Ville" id="Ville" /> </label> <br/>
+								<label>Province: <input type="text" name="Province" id="Province" /> </label> <br/>
+								<label>Pays: <input type="text" name="Pays" id="Pays" /> </label> <br/>
+								<label>             Groupe d'age*               </label> <br/>
+								<label>14 à 18 ans: <input type="radio" name="age" id="age1" /> </label> 
+								<label>19 à 25 ans: <input type="radio" name="age" id="age2" /> </label> 
+								<label>26 à 35 ans: <input type="radio" name="age" id="age3" /> </label> 
+								<label>36 à 45 ans: <input type="radio" name="age" id="age4" /> </label> 
+								<label>45 ans et +: <input type="radio" name="age" id="age5" /> </label> 
+							</fieldset><br/>
+
+							<fieldset>
+								<legend> Votre opunion </legend>
+								<label>Type question*:</label>
+									<select name="question" id="question"> 
+									<option>Publicité</option>	
+									<option>Plainte</option>
+									<option>Don</option>
+									<option>Question au Distributeur</option>
+									<option>Evenement</option>
+									<option>Question Internationnal</option>
+									<option>Marketing</option>
+									<option>Question sur les ventes en detail</option>
+									<option>Demande technique</option>
+									<option>Autres</option>
+								</select> <br/>
+								<p> Si votre question concerne l’un de nos produits, veuillez sélectionner le nom du produit et entrer le code de production ci-dessous. Un code de production se trouve sous chaque canette de Monster Energy. </p>
+
+								<label>Type Boisson:</label>
+								<select name="typeboisson" id="typeboisson"> 
+									<option>Absolutede Zero</option>	
+									<option>Ultra Blue</option>
+									<option>Vanilla</option>
+									<option>Loca moca</option>
+									<option>Cappuccino</option>
+									<option>Coffe</option>
+									<option>Toffe</option>
+									<option>Cuba-Lina</option>
+									<option>Zero Ultra</option>
+									<option>Monster Energy</option>
+								</select><br/>
+									<label>Code*: <input type="text" name="code" id="code" /> </label> <br/><br/>
+									<label> Description*:</label>
+									<p> Veuillez entrer le plus d’information possible au sujet de votre question ou préoccupation </p>
+									<textarea rows="5" cols="50" name="Description" id="Description">
+									</textarea>
+									<input type="submit" value="Soumettre"/>
+							</fieldset>
+						</form>
+					</div>
+
+					<div id="footer">
+						<div id="footer-barre"></div>
+
+						<div id="footer-liens">
+							<ul>
+								<li><a href="#">Accueil</a></li>
+								<li><a href="#">Règles</a></li>
+								<li><a href="#">Termes</a></li>
+								<li><a href="#">Politique des coupons</a></li>
+								<li><a href="#">Version mobile</a></li>
+							</ul>
+
+							<p>Monster Energy. 2013 © Tous droits réservés. </p>
+						</div>
+
+						<div id="footer-social">
+							<p>Restez en contact avec Monster Energy</p>
+							<a href="https://www.facebook.com/MonsterEnergy"><img src="images/logo-facebook.png" alt="Facebook" /></a>
+							<a href="https://twitter.com/monsterenergy"><img src="images/logo-twitter.png" alt="Twitter" /></a>
+							<a href="http://www.youtube.com/monsterenergy"><img src="images/logo-youtube.png" alt="Youtube" /></a>
+							<a href="http://instagram.com/monsterenergy"><img src="images/logo-instagram.png" alt="Instagram" /></a>
+							<a href="https://plus.google.com/+MonsterEnergy/posts"><img src="images/logo-googleplus.png" alt="Google+" /></a>
+						</div>
+					</div>
+				</div>
+
+				<div id="body-ombre-droite"></div>
+			</div>
+
+		</div>
+
+	</body>
+</html>
