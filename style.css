@@ -362,23 +362,55 @@ Vert: #d6dd24
 	width: 100%;
 }
 
-#content .box img
+#content .imgBox {
+	border: 1px solid #FFFFFF;
+	width: 500px;
+	height: 220px;	
+	position: relative;
+}
+
+#content .imgBox ul
+{  
+	list-style-type:none; 
+}
+
+#content .imgBox ul li
+{   
+	border: 1px solid #FFFFFF;
+	width: 150px;
+	height: 80px;
+	margin:0;
+	padding:0;
+}
+
+#content .imgBox img
 {
-	margin: 15px;
 	width: 60px;
 	height: 60px;
+	float: left;
+	margin: 5px;
 }
 
 
-#content .imgs
+.champs label
+{  
+	float: left;
+	display: block;
+    /*width: 150px; */   
+}
+
+/*.champs label.inline 
 {
-	float: left;	
-}
+ display:inline;
+ margin-right:50px;
+ }*/
 
-.imgBox {
-	width: 500px;
-	height: 220px;
-}
+
+
+
+
+
+
 
 
 
