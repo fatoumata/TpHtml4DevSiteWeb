@@ -362,10 +362,10 @@ Vert: #d6dd24
 	width: 100%;
 }
 
-#content .imgBox {
-	border: 1px solid #FFFFFF;
-	width: 500px;
-	height: 220px;	
+#content .imgBox 
+{
+	width: 600px;
+	height: 250px;	
 	position: relative;
 }
 
@@ -374,21 +374,33 @@ Vert: #d6dd24
 	list-style-type:none; 
 }
 
-#content .imgBox ul li
+#content .imgBox >ul >li
 {   
-	border: 1px solid #FFFFFF;
-	width: 150px;
-	height: 80px;
-	margin:0;
-	padding:0;
+	list-style-type:none; 
+	width: 250px;
+	height: 110px;	
+	float: left;	
+}
+
+#content .imgBox >ul >li h3
+{
+	position: relative;
+	left: 20px;	
+	font-size: 11pt;
+}
+
+#content .imgBox >ul >li p
+{
+	position: relative;
+	left: 30px;	
+	font-size: 8pt;
 }
 
 #content .imgBox img
 {
-	width: 60px;
-	height: 60px;
+	width: 100px;
+	height: 90px;
 	float: left;
-	margin: 5px;
 }
 
 
@@ -396,14 +408,15 @@ Vert: #d6dd24
 {  
 	float: left;
 	display: block;
-    /*width: 150px; */   
+   width: 150px; 
+   margin-left: 20px;  
+}
+.clear
+{
+	clear:both;
 }
 
-/*.champs label.inline 
-{
- display:inline;
- margin-right:50px;
- }*/
+
 
 
 
